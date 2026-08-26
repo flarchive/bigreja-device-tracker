@@ -1,0 +1,31 @@
+{
+  "name": "superbraga/device-tracker",
+  "description": "Device Tracker extension for Flarum",
+  "type": "flarum-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bruno Igreja"
+    }
+  ],
+  "require": {
+    "flarum/core": "^1.8.0",
+    "dflydev/fig-cookies": "^3.0",
+    "ramsey/uuid": "^4.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "SuperBraga\\DeviceTracker\\": "src/"
+    }
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Device Tracker",
+      "icon": {
+        "name": "fas fa-shield-alt",
+        "backgroundColor": "#e74c3c",
+        "color": "#fff"
+      }
+    }
+  }
+}
