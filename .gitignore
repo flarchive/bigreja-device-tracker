@@ -1,0 +1,32 @@
+# Composer / PHP
+/vendor/
+composer.lock
+
+# Node / Frontend dependencies
+/js/node_modules/
+/js/package-lock.json
+/js/yarn.lock
+/js/pnpm-lock.yaml
+
+# Compiled assets (Flarum convention: commit js/dist only if distributing via Packagist without a build CI, but ignore for clean source repos)
+# If building during deployment, ignore dist:
+# /js/dist/
+
+# OS metadata & caches
+.DS_Store
+Thumbs.db
+
+# IDE & Editor settings
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# Logs & Temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.phpunit.result.cache
